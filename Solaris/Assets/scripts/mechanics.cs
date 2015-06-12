@@ -25,7 +25,7 @@ public class mechanics : MonoBehaviour {
 		sounds = GetComponents<AudioSource>();
 		fxSound = sounds[0];
 		clock = sounds[1];
-		fxSound.Play ();
+		//fxSound.Play ();
 		play = true;
 	}
 	
